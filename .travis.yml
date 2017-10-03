@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '6'
+- '8'
+deploy:
+  provider: npm
+  email: npm@loke.com.au
+  api_key:
+    secure: DiDwfqg0W3aZum1XbeIeDRbDO/455d/CzgKXp1Q2oSrmvR/EhXasqcFIYx1/FoJVjRvmOzP0n2C1DVum/9E5Sa1kDHDvzn+3GfFGmHvWL1k8EQtbzYBkqLeLlmT1/9w9vZMmdOC8KZI/3Bj3uoehW2sUnxcnXL7oHZDsZPSebEzpY7lexYEFQrq6yjqcvHdg3HtWr101POz+gcuYqGMzjrNdg3cYvhia9rRbrZ3pBQQSVsYmjkb/YzEPdafenoxW9rcWI0zZILzhDO+Z3goC7DQ1Zn76CvemRJ/5jVEaHSZGl/v/H+dV4fiBkwnsPpKugop7TEUDMKPkfL7HMLWFWjF8ziNdT11ehL0MnA3Owz1Tu6HYyf5bQes3ZA5fFUWw5LaAO+0uEaoC3G7FKrEfcaD/0rWiMZqK21oUVd4xktmtL9IUYwK+HTxKImzKCkbST0Ig60pb1gqrsKiDGClsp6kBacFm7vtxQmmkDbXWukN2C5X2O5zhXFSS8qsOPYr+Kf8pd7OGQUrgYdYAdUjCXffhRuzqbSi8aUOmk16REJLQ7FELw0fteOwC/CHDsdhtNdxiQb6W6gGoNAnA0t5r7iBLIO4gMTHNujVkATCjCiNU3pi+EfymJBl17/gF611gbCYH1Yxbhzut4RxqM8FOO/9XQ8YDpKX85mR/d9ir4aI=
+  on:
+    tags: true
+    repo: LOKE/breaker
